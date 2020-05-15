@@ -1,0 +1,49 @@
+apply plugin: 'com.android.library'
+
+android {
+
+    compileSdkVersion rootProject.ext.compileSdkVersion
+    buildToolsVersion rootProject.ext.buildToolsVersion
+
+    defaultConfig {
+        minSdkVersion rootProject.ext.minSdkVersion
+        targetSdkVersion rootProject.ext.targetSdkVersion
+        versionCode 1
+        versionName "1.0"
+
+
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation 'androidx.appcompat:appcompat:1.0.0'
+    api 'androidx.recyclerview:recyclerview:1.0.0'
+    api 'com.squareup.retrofit2:retrofit:2.4.0'
+    api 'com.squareup.retrofit2:converter-gson:2.4.0'
+    api 'com.squareup.retrofit2:adapter-rxjava2:2.4.0'
+    api 'com.squareup.okhttp3:logging-interceptor:3.4.1'
+
+    api 'io.reactivex.rxjava2:rxjava:2.1.16'
+    api 'io.reactivex.rxjava2:rxandroid:2.0.1'
+
+    api 'com.facebook.fresco:fresco:1.13.0'
+    api 'com.facebook.fresco:animated-gif:1.13.0'
+    api 'com.facebook.fresco:webpsupport:1.13.0'
+    api 'com.facebook.fresco:animated-webp:1.13.0'
+//    compile "com.facebook.fresco:imagepipeline-okhttp3:1.13.0"
+    //头条图片优化库
+    implementation "com.bytedance.fresco:statistics:1.0.3"  //监控+网络组件
+//    implementation 'com.bytedance.fresco:heif:1.0.3-rc.3'     //HEIF 解码库
+    api project(path: ':Supplier')
+
+    api 'com.flurry.android:analytics:11.6.0@aar'
+}

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="video_list_item_postion" type="id"/>
+    <item name="detail_normal_button_type" type="id"/>
+    <item name="list_error_view" type="id"/>
+    <item name="tag_error_code" type="id"/>
+    <item name="tag_position" type="id"/>
+    <item name="tag_id" type="id"/>
+    <item name="tag_coin" type="id"/>
+    <item name="auto_theme_bkimg" type="id" />
+
+
+</resources>

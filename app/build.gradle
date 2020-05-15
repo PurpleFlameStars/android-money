@@ -1,0 +1,89 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion rootProject.ext.compileSdkVersion
+    buildToolsVersion rootProject.ext.buildToolsVersion
+
+    def hostType = project.hasProperty('RELEASE_HOST') ? "${RELEASE_HOST}" : "${releaseHost}"
+
+    defaultConfig {
+        applicationId "com.cashLoan.money"
+        minSdkVersion rootProject.ext.minSdkVersion
+        targetSdkVersion rootProject.ext.targetSdkVersion
+        versionCode 1
+        versionName "1.0"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        buildConfigField("String", "LANGUAGE", project.hasProperty('LANGUAGE') ? "\"$LANGUAGE\"" : "\"${language}\"")
+        buildConfigField("boolean", "IS_RELEASE_HOST", hostType == "online" ? "true" : "false")
+    }
+    signingConfigs {
+        releaseConfig {
+            keyAlias 'money'
+            keyPassword 'love123'
+            storeFile file('./luckMoney.jks')
+            storePassword 'love123'
+            v1SigningEnabled true
+            v2SigningEnabled true
+        }
+        debugConfig {
+            keyAlias 'money'
+            keyPassword 'love123'
+            storeFile file('./luckMoney.jks')
+            storePassword 'love123'
+            v1SigningEnabled true
+            v2SigningEnabled true
+        }
+    }
+    buildTypes {
+        release {
+            minifyEnabled true
+            shrinkResources true
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+            signingConfig signingConfigs.releaseConfig
+            buildConfigField "String", "hostAddress", "\"funny.u.test.golemon123.com/\""
+        }
+        debug {
+            minifyEnabled false
+            shrinkResources false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+            signingConfig signingConfigs.releaseConfig
+            buildConfigField "String", "hostAddress", "\"funny.u.test.golemon123.com/\""
+        }
+    }
+    lintOptions {
+        checkReleaseBuilds false
+        abortOnError false
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+    aaptOptions {
+        noCompress "tflite"
+    }
+
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+
+    implementation 'androidx.appcompat:appcompat:1.1.0'
+    implementation 'androidx.constraintlayout:constraintlayout:1.1.3'
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.1'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
+    implementation project(path: ':baselibs')
+    implementation 'androidx.cardview:cardview:1.0.0'
+    implementation 'androidx.recyclerview:recyclerview:1.1.0-rc01'
+    implementation project(path: ':safewebview')
+
+
+    implementation fileTree(dir: 'libs', include: ['*.jar','*.aar'])
+    implementation 'com.google.code.gson:gson:2.8.5'
+    implementation 'org.tensorflow:tensorflow-lite:1.10.0'
+    implementation 'org.apache.commons:commons-math3:3.6.1'
+
+    //七牛图片上传
+    implementation 'com.qiniu:qiniu-android-sdk:7.3.15'
+}

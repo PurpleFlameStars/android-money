@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="style_recycel_progressbar">
+        <item name="android:indeterminateDrawable">@drawable/recycel_footer_loading</item>
+        　　<item name="android:minWidth">21dp</item>
+        　　 <item name="android:maxWidth">64dp</item>
+        　   <item name="android:minHeight">21dp</item>
+        　　 <item name="android:maxHeight">64dp</item>
+    </style>
+
+    <style name="loading_dialog_style" parent="Theme.AppCompat.Dialog">
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+    </style>
+
+    <style name="TransparentDialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowAnimationStyle">@null</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+    </style>
+
+</resources>

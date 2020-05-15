@@ -1,0 +1,31 @@
+apply plugin: 'com.android.library'
+
+android {
+    /* Android Studio 中报错 程序包org.apache.http不存在 的解决方法,
+    出现编译错误：" Unable to find optional library: org.apache.http.legacy"
+    参考http://blog.csdn.net/liuhongwei123888/article/details/50100697
+    */
+    useLibrary 'org.apache.http.legacy'
+
+    compileSdkVersion rootProject.ext.compileSdkVersion
+    buildToolsVersion rootProject.ext.buildToolsVersion
+
+    defaultConfig {
+        minSdkVersion rootProject.ext.minSdkVersion
+        targetSdkVersion rootProject.ext.targetSdkVersion
+        versionCode 1
+        versionName "1.0"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    api fileTree(include: ['*.jar'], dir: 'libs')
+}
+

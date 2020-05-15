@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/bun_listview_layout">
+
+        <include
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            layout="@layout/bun_recycleview_refresh"
+            />
+        <ViewStub
+            android:id="@+id/common_loading"
+            android:layout="@layout/bun_loading_content"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone"
+            />
+       <!-- <include
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone"
+            android:id="@+id/nonetview"
+            layout="@layout/view_nonetwork"
+            />-->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:id="@+id/bun_fresh_tips"
+            android:gravity="center_vertical|center_horizontal"
+            android:textColor="#ffffffff"
+            android:textSize="14sp"
+            android:background="@drawable/fresh_tip_bg"
+            android:alpha="0"
+            />
+    </merge>
+

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_marginTop="@dimen/dimen_70dp"
+        android:id="@+id/guide_item_img"
+        android:layout_width="match_parent"
+        android:layout_height="301dp"
+        android:scaleType="fitXY" />
+    <TextView
+        android:layout_marginTop="54dp"
+        android:id="@+id/guide_item_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="16dp"
+        android:textColor="#3A92FF"
+        />
+    <TextView
+        android:id="@+id/guide_item_title1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="16dp"
+        android:textColor="@color/color_333"
+        />
+    <TextView
+        android:id="@+id/guide_item_des"
+        android:layout_width="match_parent"
+        android:layout_marginStart="@dimen/dimen_48dp"
+        android:layout_marginEnd="@dimen/dimen_48dp"
+        android:layout_marginTop="@dimen/dimen_18dp"
+        android:layout_height="wrap_content"
+        tools:text="Age above 18 and not over 55 years Have a debit account that is in YOUR name"
+        android:gravity="center"
+        android:textSize="13dp"
+        android:textColor="@color/color_333"
+        />
+</LinearLayout>

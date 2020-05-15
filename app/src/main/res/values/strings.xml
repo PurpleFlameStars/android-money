@@ -1,0 +1,58 @@
+<resources>
+    <string name="app_name">money</string>
+
+    <string name="language">语言/Language/Idioma</string>
+
+    <string name="following_system_language">使用系统语言</string>
+    <string name="Chinese">中文</string>
+    <string name="Spanish">Español</string>
+    <string name="English">English</string>
+    <string name="Portuguese">Português</string>
+
+
+    <string name="splash_hint">Young people\'s credit wallet</string>
+
+    <string name="skip">SKIP</string>
+    <string name="get_started">GET STARTED</string>
+
+    <string name="best_loan">BAST LOAN</string>
+    <string name="offers_just_for_you">OFFERS JUST FOR YOU</string>
+    <string name="guide_page_des_1">Loan amount up to $20,000 MXN Pesos Lower daily interest rates starting at 0.09%</string>
+
+    <string name="quick">QUICK</string>
+    <string name="approval_process">APPROVAL PROCESS</string>
+    <string name="guide_page_des_2">Instant approval less than 30 minutes Direct money transfer to your bank account</string>
+
+    <string name="easy">EASY</string>
+    <string name="way_to_borrow">WAY TO BORROW</string>
+    <string name="guide_page_des_3">Minmum documentation and 100% online process with no paperwork no branch visits</string>
+
+    <string name="simple">SIMPLE</string>
+    <string name="eligibility_criteria">ELIGIBILITY CRITERIA</string>
+    <string name="guide_page_des_4">Age above 18 and not over 55 years Have a debit account that is in YOUR name</string>
+
+    <string name="ine_ife_verfication">INE/IFE VERFICATION</string>
+
+    <string name="ine_ife_hint">All uploded images will only be used for KYC process</string>
+
+    <string name="ine_ife_front_hint">Scan the front of your INE card</string>
+    <string name="ine_ife_rear_hint">Scan the back of your INE card</string>
+
+    <string name="next">NEXT</string>
+
+    <string name="nombre">Nombre</string>
+    <string name="apellido_paterno">Apellido paterno</string>
+    <string name="apellido_materno">Apellido materno</string>
+    <string name="curp_hint">CURP(Ingresa tu CURP)</string>
+    <string name="rfc_hint">RFC(Registro Federal de Contribuyentes)</string>
+
+    <string name="please_input_nombre">Por favor introduce un nombre</string>
+    <string name="please_input_apellido_paterno">Por favor introduce Apellido paterno</string>
+    <string name="please_input_apellido_materno">Por favor introduce Apellido materno</string>
+    <string name="please_input_curp">Por favor introduce CURP</string>
+    <string name="please_input_rfc">Por favor introduce RFC</string>
+
+    <string name="identification_of_failure">Identification of failure</string>
+    <string name="please_information">Por favor, perfeccione la información.</string>
+
+</resources>

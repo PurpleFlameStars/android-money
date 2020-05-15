@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="names">
+        <item>@string/best_loan</item>
+        <item>@string/quick</item>
+        <item>@string/easy</item>
+        <item>@string/simple</item>
+    </string-array>
+    <string-array name="title">
+        <item>@string/offers_just_for_you</item>
+        <item>@string/approval_process</item>
+        <item>@string/way_to_borrow</item>
+        <item>@string/eligibility_criteria</item>
+
+    </string-array>
+    <string-array name="details">
+        <item>@string/guide_page_des_1</item>
+        <item>@string/guide_page_des_2</item>
+        <item>@string/guide_page_des_3</item>
+        <item>@string/guide_page_des_4</item>
+
+    </string-array>
+    <string-array name="icons">
+        <item>guide_img_1</item>
+        <item>guide_img_2</item>
+        <item>guide_img_3</item>
+        <item>guide_img_4</item>
+
+    </string-array>
+
+
+</resources>

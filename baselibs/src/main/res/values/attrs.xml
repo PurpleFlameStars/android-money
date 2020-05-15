@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="BunListView">
+        <attr name="canrefresh" format="boolean"></attr>
+        <attr name="canloadmore" format="boolean"></attr>
+        <attr name="offset_loadmore" format="integer"></attr>
+        <attr name="has_loadmore_ui" format="boolean"></attr>
+        <attr name="refresh_tip" format="boolean"></attr>
+        <attr name="top_loadmore" format="boolean"></attr>
+        <attr name="refresh_bk" format="color"></attr>
+        <attr name="recycel_bk" format="color"></attr>
+        <attr name="load_color" format="color"></attr>
+        <attr name="show_load_end" format="boolean"></attr>
+        <attr name="use_center_loading" format="boolean"></attr>
+
+    </declare-styleable>
+    <declare-styleable name="LableImage">
+        <attr name="show_lable" format="boolean"></attr>
+        <attr name="bk_src" format="integer"></attr>
+        <attr name="bk_url" format="string"></attr>
+        <attr name="lb_src" format="integer"></attr>
+        <attr name="lb_url" format="string"></attr>
+        <attr name="lb_width" format="dimension"></attr>
+        <attr name="lb_height" format="dimension"></attr>
+        <attr name="right_offset" format="dimension"></attr>
+        <attr name="top_offset" format="dimension"></attr>
+        <attr name="bk_radius" format="dimension"></attr>
+    </declare-styleable>
+
+</resources>

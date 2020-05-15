@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="bun_pull_color">#fb3d3d</color>
+    <color name="transparent">#00FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="white">#FFffffff</color>
+    <color name="themeColorRed">#fb3b3b</color>
+    <color name="green_bg">#00a16d</color>
+    <color name="black_50">#7f000000</color>
+    <color name="black_70">#B2000000</color>
+    <color name="black_90">#E6000000</color>
+    <color name="white_50">#7fffffff</color>
+    <color name="white_70">#b2ffffff</color>
+    <color name="white_60">#99ffffff</color>
+    <color name="black_75">#BF000000</color>
+    <color name="F1F3F8">#FFF1F3F8</color>
+    <color name="color_f4">#f4f4f4</color>
+
+</resources>

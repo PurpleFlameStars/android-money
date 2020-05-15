@@ -1,0 +1,89 @@
+<resources>
+    <!---->
+    <dimen name="title_bar_title_size">16sp</dimen>
+    <dimen name="title_bar_right_text_size">13sp</dimen>
+    <dimen name="item_bottom_line_height">0.5dp</dimen>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="title_bar_height">48dp</dimen>
+    <dimen name="home_feed_decorat">10dp</dimen>
+    <dimen name="home_feed_textpic_three_height">72dp</dimen>
+    <dimen name="textpic_view_padding">13dp</dimen>
+    <dimen name="textpic_imageview_margin">3dp</dimen>
+    <dimen name="textpic_imageview_bitmodel_height">332dp</dimen>
+    <dimen name="textpic_imageview_smallmodel_height">71dp</dimen>
+    <dimen name="textpic_imageview_smallmodel_width">108dp</dimen>
+    //====================================home feed=============================
+    <dimen name="home_feed_avatar_width">33dp</dimen>
+    <dimen name="home_feed_avatar_height">33dp</dimen>
+    <dimen name="home_feed_pendant_width">45dp</dimen>
+    <dimen name="home_imagefeed_margin">6dp</dimen>
+    <dimen name="follow_chat_user_age">12sp</dimen>
+
+    <dimen name="home_tab_margin">7dp</dimen>
+    <dimen name="margin_9dp">9dp</dimen>
+
+    <dimen name="home_feed_dl_ring_size">1dp</dimen>
+    <dimen name="home_feed_dl_center">12dp</dimen>
+    <dimen name="home_feed_dl_radius">11dp</dimen>
+    <dimen name="detail_feed_dl_radius">13dp</dimen>
+    <dimen name="margin_left_10dp">10dp</dimen>
+    <dimen name="margin_right_10dp">10dp</dimen>
+
+    //===========================================================================
+
+    //===========================================================================
+    <dimen name="friend_may_known_height">58dp</dimen>
+    //===========================================
+    <dimen name="detail_feed_avatar_size">48dp</dimen>
+
+    //==================static value================================
+    <dimen name="dimen_107dp">107dp</dimen>
+    <dimen name="dimen_207dp">207dp</dimen>
+    <dimen name="dimen_27dp">27dp</dimen>
+    <dimen name="dimen_20dp">20dp</dimen>
+    <dimen name="dimen_270dp">270dp</dimen>
+    <dimen name="dimen_333dp">333dp</dimen>
+    <dimen name="dimen_33dp">33dp</dimen>
+    <dimen name="dimen_30dp">30dp</dimen>
+    <dimen name="dimen_61dp">61dp</dimen>
+    <dimen name="dimen_113dp">113dp</dimen>
+    <dimen name="dimen_264dp">264dp</dimen>
+    <dimen name="dimen_155dp">155dp</dimen>
+    <dimen name="dimen_68dp">68dp</dimen>
+    <dimen name="dimen_10dp">10dp</dimen>
+    <dimen name="dimen_200dp">200dp</dimen>
+    <dimen name="dimen_48dp">48dp</dimen>
+    <dimen name="dimen_50dp">50dp</dimen>
+    <dimen name="dimen_47dp">47dp</dimen>
+    <dimen name="dimen_7dp">7dp</dimen>
+    <dimen name="dimen_11dp">11dp</dimen>
+    <dimen name="dimen_13dp">13dp</dimen>
+    <dimen name="dimen_24dp">24dp</dimen>
+    <dimen name="dimen_18dp">18dp</dimen>
+    <dimen name="dimen_5dp">5dp</dimen>
+    <dimen name="dimen_2dp">2dp</dimen>
+    <dimen name="dimen_34dp">34dp</dimen>
+    <dimen name="dimen_31dp">31dp</dimen>
+    <dimen name="dimen_9dp">9dp</dimen>
+    <dimen name="dimen_84dp">84dp</dimen>
+    <dimen name="dimen_15dp">15dp</dimen>
+    <dimen name="dimen_3dp">3dp</dimen>
+    //==============================comment image size==============
+    <dimen name="comment_image_width">113dp</dimen>
+    <dimen name="comment_image_height">113dp</dimen>
+	
+	//=====================stickers==============
+	<dimen name="sticker_pack_list_item_preview_image_size">50dp</dimen>
+    <dimen name="sticker_pack_details_image_size">80dp</dimen>
+    <dimen name="sticker_pack_details_image_padding">8dp</dimen>
+
+    <dimen name="dimen_feedtab_layout_height">45dp</dimen>
+    <dimen name="dimen_70dp">70dp</dimen>
+    <dimen name="dimen_4dp">4dp</dimen>
+    <dimen name="dimen_40dp">40dp</dimen>
+    <dimen name="dimen_210dp">210dp</dimen>
+    <dimen name="dimen_102dp">102dp</dimen>
+
+
+</resources>

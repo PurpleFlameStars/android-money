@@ -1,0 +1,84 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+
+        <item name="android:windowBackground">@color/white</item>
+        <item name="colorPrimary">@color/white</item>
+        <item name="colorPrimaryDark">@color/white</item>
+        <item name="colorAccent">@color/transparent</item>
+
+<!--        <item name="windowActionBar">false</item>-->
+        //隐藏标题栏
+<!--        <item name="windowNoTitle">true</item>-->
+        //隐藏状态栏
+<!--         <item name="android:windowFullscreen">true</item>-->
+        //透明状态栏
+<!--        <item name="android:windowTranslucentStatus">true</item>-->
+    </style>
+
+    <style name="fullscreen" parent="AppTheme">
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowFrame">@null</item>
+    </style>
+    <style name="translucent50" parent="AppTheme">
+        <item name="android:windowBackground">@color/transparent</item>
+
+    </style>
+    <style name="OcrActivityTheme"  parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+
+    <style name="SplashActivityTheme"  parent="Theme.AppCompat.Light.NoActionBar">
+         <item name="windowNoTitle">true</item>
+          <item name="android:windowFullscreen">true</item>
+    </style>
+
+    <style name="date_picker_theme" parent="AppTheme">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+
+    <style name="navigation_title_style">
+        <item name="android:textSize">@dimen/title_bar_title_size</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="navigation_bg">
+        <item name="android:background">@color/white</item>
+    </style>
+
+    <style name="sticker_list_item_style">
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:lines">1</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+    <style name="StickerPreviewButtonText" parent="Widget.AppCompat.Button.Borderless">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+    <declare-styleable name="BarChartView">
+        <attr name="barchartCount" format="integer" />
+        <attr name="barchartDuration" format="integer" />
+        <attr name="barchartShape" format="reference" />
+        <attr name="barchartHeight" format="dimension" />
+        <attr name="barchartWidth" format="dimension" />
+        <attr name="barcharMarginLeft" format="dimension" />
+        <attr name="barcharBackColor" format="color" />
+    </declare-styleable>
+
+    <!--横向分割线-->
+    <style name="HorizontalDivideLine">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0.3dp</item>
+        <item name="android:background">@color/gray_E5E5EA</item>
+    </style>
+</resources>

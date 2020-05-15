@@ -1,0 +1,30 @@
+<resources>
+    <!--<string name="app_name">BaseLibs</string>-->
+    <string name="refresh_tips_format">There are %d new posts</string>
+    <string name="loadmore_end">Slide to continue</string>
+    <string name="loadmore_init">Slide to continue</string>
+    <string name="loadmore_loading">Loading ...</string>
+    <string name="loadmore_failed">Load failed,click to try again</string>
+    <string name="loadmore_nomore">No more data ~</string>
+    <string name="error_checknetwork">Please check your network </string>
+    <string name="error_load_data">Load failed</string>
+    <string name="nonetview_title1">Oh no!</string>
+    <string name="nonetview_title2">There is nothing yet</string>
+    <string name="nonetview_button_retry">Retry</string>
+    <string name="loadingview_text">Loading...</string>
+    <string name="loading">Loading</string>
+    <string name="yesterday">yesterday</string>
+    <string name="today">toady</string>
+    <string name="the_day_before">the day before yesterday</string>
+    <string name="report_reason">Report reason</string>
+    <string name="report_done">Thanks for your feedback</string>
+    <string name="report_other_reason">Explain the other reason</string>
+    <string name="skip">Skip</string>
+
+    <string name="save_image_sucess">Save image to %1$s succeeded!</string>
+    <string name="save_image_faild">save image failed!</string>
+
+    <string name="save_media_sucess">Save Succeeded!</string>
+    <string name="save_media_faild">Save Failed!</string>
+
+</resources>

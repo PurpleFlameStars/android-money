@@ -1,0 +1,6 @@
+<resources>
+    <!--<string name="app_name">weGoo</string>-->
+    <string name="ok">confirme</string>
+    <string name="cancel">cancelar</string>
+    <string name="ssl_error">Existe um problema com o certificado de segurança deste site. Tem a certeza que quer visitar？</string>
+</resources>

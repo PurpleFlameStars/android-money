@@ -1,0 +1,41 @@
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+
+buildscript {
+    
+    repositories {
+        google()
+        jcenter()
+        maven{url 'https://mvnrepository.com/artifact/'}
+        maven { url 'https://dl.bintray.com/ttgamesdk/public' }
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:3.6.3'
+        
+
+        // NOTE: Do not place your application dependencies here; they belong
+        // in the individual module build.gradle files
+    }
+}
+
+allprojects {
+    repositories {
+        google()
+        jcenter()
+        maven{url 'https://mvnrepository.com/artifact/'}
+        maven { url  "https://giphy.bintray.com/giphy-sdk" }
+        maven { url 'https://dl.bintray.com/ttgamesdk/public' }
+        maven { url 'https://jitpack.io' }
+    }
+}
+ext {
+    compileSdkVersion = 28
+    targetSdkVersion = 28
+    buildToolsVersion = "28.0.3"
+    minSdkVersion = 21
+
+    //js接口版本号，有接口变更时增加
+    jsVersionCode = 8
+}
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}

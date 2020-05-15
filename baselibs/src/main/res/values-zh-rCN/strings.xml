@@ -1,0 +1,28 @@
+<resources>
+  <!--<string name="app_name">weGoo</string>-->
+  <string name="refresh_tips_format">更新了%d条新内容</string>
+  <string name="loadmore_end">滑动以继续</string>
+  <string name="loadmore_init">滑动以继续</string>
+  <string name="loadmore_loading">加载中</string>
+  <string name="loadmore_failed">加载失败，点击重试</string>
+  <string name="loadmore_nomore">没有更多数据了</string>
+  <string name="error_checknetwork">请查看您的网络是否良好</string>
+  <string name="error_load_data">加载更多数据失败</string>
+  <string name="nonetview_title1">天呐噜</string>
+  <string name="nonetview_title2">没有发现数据</string>
+  <string name="nonetview_button_retry">重试</string>
+  <string name="loadingview_text">加载中……</string>
+  <string name="loading">加载中……</string>
+  <string name="yesterday">昨天</string>
+  <string name="today">今天</string>
+  <string name="the_day_before">前天</string>
+  <string name="report_reason">举报原因</string>
+  <string name="report_done">感谢您的反馈</string>
+  <string name="report_other_reason">请输入其它原因</string>
+  <string name="skip">跳过</string>
+
+  <string name="save_image_sucess">图片已保存至 %1$s </string>
+  <string name="save_image_faild">图片保存失败</string>
+
+
+</resources>

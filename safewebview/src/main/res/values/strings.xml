@@ -1,0 +1,6 @@
+<resources>
+    <!--<string name="app_name">SafeWebView</string>-->
+    <string name="ok">confirm</string>
+    <string name="cancel">cancel</string>
+    <string name="ssl_error">There is a problem with this website security certificate. Are you sure you want to continue to visit?</string>
+</resources>

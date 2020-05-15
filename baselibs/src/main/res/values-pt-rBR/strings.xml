@@ -1,0 +1,27 @@
+<resources>
+    <!--<string name="app_name">BaseLibs</string>-->
+    <string name="refresh_tips_format">Há %d novas postagens</string>
+    <string name="loadmore_end">Deslize para continuar</string>
+    <string name="loadmore_init">Deslize para continuar</string>
+    <string name="loadmore_loading">Carregando...</string>
+    <string name="loadmore_failed">Erro ao carregar, clique para tentar novamente</string>
+    <string name="loadmore_nomore">Não há mais dados ~</string>
+    <string name="error_checknetwork">Por favor, verifique sua conexão</string>
+    <string name="error_load_data">Erro ao carregar</string>
+    <string name="nonetview_title1">Oh não!</string>
+    <string name="nonetview_title2">Ainda não há nada</string>
+    <string name="nonetview_button_retry">Tente nova</string>
+    <string name="loadingview_text">Carregando</string>
+    <string name="loading">Carregando</string>
+    <string name="yesterday">ontem</string>
+    <string name="today">hoje</string>
+    <string name="the_day_before">anteontem</string>
+    <string name="report_reason">Report reason</string>
+    <string name="report_done">Obrigado pelo seu feedback</string>
+    <string name="report_other_reason">Digite otro motivo</string>
+    <string name="skip">Saltar</string>
+
+    <string name="save_image_sucess">A imagem foi salva em %1$s com sucesso</string>
+    <string name="save_image_faild">Erro ao salvar a imagem</string>
+
+</resources>
