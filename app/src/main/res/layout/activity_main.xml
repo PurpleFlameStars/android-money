@@ -1,17 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:fitsSystemWindows="true"
     android:background="@color/white"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:gravity="center"
+    >
 
     <TextView
         android:id="@+id/main_ocr"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!" />
+        android:layout_width="@dimen/dimen_40dp"
+        android:layout_height="@dimen/dimen_20dp"
+        android:gravity="center"
+        android:text="ocr" />
+    <TextView
+        android:id="@+id/main_live"
+        android:layout_width="@dimen/dimen_40dp"
+        android:layout_height="@dimen/dimen_20dp"
+        android:gravity="center"
+        android:text="Liveness" />
 
-</RelativeLayout>
+</LinearLayout>

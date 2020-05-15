@@ -7,6 +7,7 @@ import android.content.Intent;
 import com.cashLoan.money.ui.activity.OcrActivity;
 import com.cashLoan.money.ui.activity.OcrNextActivity;
 import com.cashLoan.money.ui.bean.DetectorInfo;
+import com.cashLoan.money.ui.activity.LivenessActivity;
 import com.cashLoan.money.utils.MoneyConfig;
 import com.cashLoan.money.webview.LiveWebViewActivity;
 import com.cashLoan.money.webview.WebViewActivity;
@@ -33,6 +34,14 @@ public class JumpHelper {
         }
         Intent intent = new Intent(context, OcrNextActivity.class);
         intent.putExtra(MoneyConfig.KFC_DATA,info);
+        checkContext(context, intent);
+        context.startActivity(intent);
+    }
+    public static void jumpLivenessActivity(Context context) {
+        if (context == null) {
+            return;
+        }
+        Intent intent = new Intent(context, LivenessActivity.class);
         checkContext(context, intent);
         context.startActivity(intent);
     }

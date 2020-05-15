@@ -29,6 +29,8 @@ import com.flurry.android.FlurryAgent;
 
 import java.util.Map;
 
+import ai.advance.liveness.lib.GuardianLivenessDetectionSDK;
+import ai.advance.liveness.lib.Market;
 
 
 public class MainApplication extends Application implements ViewModelStoreOwner {
@@ -63,6 +65,7 @@ public class MainApplication extends Application implements ViewModelStoreOwner 
         if (isMainProcess) {
             Fresco.initialize(this);
         }
+        GuardianLivenessDetectionSDK.init(this, BuildConfig.LivenessAccessKey, BuildConfig.livenessSecretKey, Market.Indonesia);
 
         initNotification();
     }

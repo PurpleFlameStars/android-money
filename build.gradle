@@ -33,6 +33,12 @@ ext {
     buildToolsVersion = "28.0.3"
     minSdkVersion = 21
 
+
+    applicationId    = '"co.centraldata.liveness.demo"' //此处填写您申请 key 对应的 applicationId
+    livenessAccessKey= '"782c172df2c364d3"'//此处填写发送给您的 accessKey
+    livenessSecretKey = '"86b48c59e4830fd4"'//此处填写发送给您的 secretKey
+
+
     //js接口版本号，有接口变更时增加
     jsVersionCode = 8
 }

@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/white"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/activitylayout"
+    android:fitsSystemWindows="true">
+    <include
+        android:id="@+id/head"
+        layout="@layout/base_head" />
+    <TextView
+        android:visibility="gone"
+        android:layout_below="@+id/head"
+        android:id="@+id/kyc_failed_hint_top"
+        android:layout_marginTop="@dimen/dimen_10dp"
+        android:layout_marginStart="@dimen/dimen_15dp"
+        android:layout_marginEnd="@dimen/dimen_20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="@string/take_selfie_failed_i"
+        android:textSize="16sp"
+        android:textColor="#F75258"
+
+        />
+    <TextView
+        android:layout_below="@+id/kyc_failed_hint_top"
+        android:id="@+id/kyc_hint_top"
+        android:layout_marginTop="@dimen/dimen_10dp"
+        android:layout_marginStart="@dimen/dimen_15dp"
+        android:layout_marginEnd="@dimen/dimen_20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ine_ife_hint"
+        android:textSize="16sp"
+        android:textColor="@color/black"
+        />
+    <TextView
+        android:layout_below="@+id/kyc_hint_top"
+        android:id="@+id/timer_text_view_camera_activity"
+        android:layout_alignParentRight="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:minWidth="50dp"
+        android:paddingLeft="12dp"
+        android:paddingTop="2dp"
+        android:paddingRight="12dp"
+        android:paddingBottom="2dp"
+        android:textColor="@color/black"
+        android:layout_marginEnd="25dp"
+        android:textSize="14dp" />
+
+
+    <CheckBox
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/timer_text_view_camera_activity"
+        android:id="@+id/voice_check_box"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="25dp"
+        android:button="@drawable/liveness_selector_voice"
+        android:padding="5dp"
+        android:visibility="invisible"/>
+
+    <RelativeLayout
+        android:id="@+id/kfc_live_lt"
+        android:layout_below="@+id/kyc_hint_top"
+        android:layout_marginTop="36dp"
+        android:layout_centerHorizontal="true"
+        android:layout_width="210dp"
+        android:layout_height="210dp">
+        <ai.advance.liveness.lib.LivenessView
+            android:id="@+id/liveness_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            />
+
+        <ImageView
+            android:id="@+id/mask_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:srcCompat="@drawable/liveness_ic_mask" />
+    </RelativeLayout>
+
+    <TextView
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/kfc_live_lt"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="14dp"
+        android:id="@+id/tip_text_view"
+        android:layout_marginStart="@dimen/dimen_15dp"
+        android:layout_marginEnd="@dimen/dimen_20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#3A92FF"
+        android:textSize="16dp" />
+
+    <ImageView
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/tip_text_view"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/tip_image_view"
+        android:layout_width="80dp"
+        android:layout_height="80dp" />
+
+
+    <TextView
+        android:visibility="gone"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/kyc_next_ok"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/dimen_15dp"
+        android:layout_marginEnd="@dimen/dimen_15dp"
+        android:paddingTop="12dp"
+        android:paddingBottom="12dp"
+        android:text="@string/next"
+        android:gravity="center"
+        android:textSize="15sp"
+        android:layout_marginBottom="45dp"
+        android:background="@drawable/share_guide_end_bg"
+        android:textColor="@color/white"
+        android:shadowColor="#ff0091ff"
+        android:shadowDx="0"
+        android:shadowDy="2"
+        />
+</RelativeLayout>

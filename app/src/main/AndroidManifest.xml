@@ -6,6 +6,8 @@
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
 
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
     <application
         android:name=".MainApplication"
         android:allowBackup="true"
@@ -44,6 +46,18 @@
             />
         <activity
             android:name=".ui.activity.OcrNextActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize|layoutDirection"
+            android:screenOrientation="portrait"
+
+            />
+        <activity
+            android:name=".language.LanguageSelectActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize|layoutDirection"
+            android:screenOrientation="portrait"
+
+            />
+        <activity
+            android:name=".ui.activity.LivenessActivity"
             android:configChanges="keyboardHidden|orientation|screenSize|layoutDirection"
             android:screenOrientation="portrait"
 

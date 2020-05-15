@@ -9,6 +9,8 @@ import android.view.View;
 import com.cashLoan.money.base.activity.BunBaseActivity;
 import com.cashLoan.money.utils.statusbar.StatusBarUtil;
 
+import ai.advance.liveness.lib.GuardianLivenessDetectionSDK;
+
 public class MainActivity extends BunBaseActivity {
 
 
@@ -28,6 +30,18 @@ public class MainActivity extends BunBaseActivity {
             @Override
             public void onClick(View v) {
               JumpHelper.jumpOcrActivity(MainActivity.this);
+            }
+        });
+
+        findViewById(R.id.main_live).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+//                if (!GuardianLivenessDetectionSDK.isSDKHandleCameraPermission()){
+//                    GuardianLivenessDetectionSDK.letSDKHandleCameraPermission();
+//                }else {
+//                    JumpHelper.jumpLivenessActivity(MainActivity.this);
+//                }
+                JumpHelper.jumpLivenessActivity(MainActivity.this);
             }
         });
 
